@@ -7,6 +7,10 @@ y <- c(1, 4)
 #c
 x - y
 #It is the difference between the elements of vector x and elements of vector y
+## But the question was what happens when x and y have different lengths.
+x - y
+## here is equivalent to 
+x - rep(y, 2)
 
 #d
 s <- c(x, y)
